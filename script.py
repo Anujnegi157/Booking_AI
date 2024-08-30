@@ -204,6 +204,7 @@ actor_dict = {
 
 # Streamlit app layout
 st.title("Booking Service with AI")
+st.subheader("By Bittoo Aggarwal")
 
 customer_name = st.text_input("What's your name?", "Saurabh")
 phone_number = st.text_input("What's your phone number?", "+91 ")
